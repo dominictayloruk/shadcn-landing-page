@@ -22,14 +22,14 @@ export const HeroCards = () => {
           <Avatar>
             <AvatarImage
               alt=""
-              src="https://github.com/shadcn.png"
+              src="https://github.com/dominictayloruk.png"
             />
             <AvatarFallback>SH</AvatarFallback>
           </Avatar>
 
           <div className="flex flex-col">
-            <CardTitle className="text-lg">John Doe React</CardTitle>
-            <CardDescription>@john_doe</CardDescription>
+            <CardTitle className="text-lg">Dominic Taylor</CardTitle>
+            <CardDescription>@dominictayloruk</CardDescription>
           </div>
         </CardHeader>
 
@@ -40,13 +40,13 @@ export const HeroCards = () => {
       <Card className="absolute right-[20px] top-4 w-80 flex flex-col justify-center items-center drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="mt-8 flex justify-center items-center pb-2">
           <img
-            src="https://i.pravatar.cc/150?img=58"
+            src="https://github.com/dominictayloruk.png"
             alt="user avatar"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
-          <CardTitle className="text-center">Leo Miranda</CardTitle>
+          <CardTitle className="text-center">Dominic Taylor</CardTitle>
           <CardDescription className="font-normal text-primary">
-            Frontend Developer
+            Web Developer
           </CardDescription>
         </CardHeader>
 
@@ -61,7 +61,7 @@ export const HeroCards = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa"
+              href="https://github.com/dominictayloruk"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",

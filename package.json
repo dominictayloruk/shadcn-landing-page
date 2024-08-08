@@ -1,8 +1,8 @@
 {
-  "name": "shadcn-landing-page-template",
-  "author": "Leo Miranda",
+  "name": "shadcn-landing-page",
+  "author": "Dominic Taylor",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -33,7 +33,7 @@ export const Hero = () => {
 
           <a
             rel="noreferrer noopener"
-            href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+            href="https://github.com/dominictayloruk/shadcn-landing-page.git"
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",
