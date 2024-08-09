@@ -4,7 +4,10 @@
 
 ![shadch-landing-page](https://github.com/dominictayloruk/shadcn-landing-page/assets/61714687/3ba7b51f-9589-4541-800a-5ab7cecad1b5)
 
-Build your React landing page effortlessly with the required sections to your project. <a href="https://shadcn-landing-page.vercel.app/" target="_blank">Live Demo</a>
+Build your React landing page effortlessly with the required sections to your project. 
+
+<a href="https://shadcn-landing-page-5g5.pages.dev/" target="_blank">Cloudflare Demo</a>
+<a href="https://shadcn-landing-page-dt.vercel.app/" target="_blank">Vercel Demo</a>
 
 ## Sections
 
@@ -32,7 +35,7 @@ Build your React landing page effortlessly with the required sections to your pr
 - [x] Dark Mode
 - [x] Meta tags
 
-## How to install
+## Local install
 
 1. Clone this repository:
 
@@ -56,4 +59,32 @@ npm install
 
 ```bash
 npm run dev
+```
+
+## Deploy to Coolify
+
+Choose Nixpacks as the build pack.
+
+1. Set the source repository:
+
+```
+https://github.com/dominictayloruk/shadcn-landing-page.git
+```
+
+2. Publish directory:
+
+```
+/dist
+```
+
+3. Install command:
+
+```
+npm install
+```
+
+4. Build command:
+
+```bash
+tsc && vite build
 ```
