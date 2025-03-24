@@ -2,10 +2,12 @@ import eslint from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import reactRefresh from 'eslint-plugin-react-refresh';
 import reactHooks from 'eslint-plugin-react-hooks';
+import prettier from 'eslint-config-prettier';
 
 export default [
   eslint.configs.recommended,
   ...tseslint.configs.recommended,
+  prettier,
   {
     files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
     ignores: ['dist/**', '.eslintrc.cjs'],
@@ -48,7 +50,7 @@ export default [
       '**/src/components/theme-provider.tsx',
       '**/src/components/ui/badge.tsx',
       '**/src/components/ui/button.tsx',
-      '**/src/components/ui/navigation-menu.tsx'
+      '**/src/components/ui/navigation-menu.tsx',
     ],
     rules: {
       'react-refresh/only-export-components': 'off',

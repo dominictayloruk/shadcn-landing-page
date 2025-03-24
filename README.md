@@ -4,7 +4,7 @@
 
 ![shadch-landing-page](https://github.com/dominictayloruk/shadcn-landing-page/assets/61714687/3ba7b51f-9589-4541-800a-5ab7cecad1b5)
 
-Build your React landing page effortlessly with the required sections to your project. 
+Build your React landing page effortlessly with the required sections to your project.
 
 <a href="https://shadcn-landing-page-5g5.pages.dev/" target="_blank">Cloudflare Demo</a>
 <a href="https://shadcn-landing-page-dt.vercel.app/" target="_blank">Vercel Demo</a>

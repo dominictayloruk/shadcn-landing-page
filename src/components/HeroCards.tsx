@@ -1,6 +1,6 @@
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Badge } from "./ui/badge";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar';
+import { Badge } from './ui/badge';
+import { Button, buttonVariants } from '@/components/ui/button';
 import {
   Card,
   CardContent,
@@ -8,10 +8,10 @@ import {
   CardHeader,
   CardTitle,
   CardFooter,
-} from "@/components/ui/card";
-import { Check, Linkedin } from "lucide-react";
-import { LightBulbIcon } from "./Icons";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+} from '@/components/ui/card';
+import { Check, Linkedin } from 'lucide-react';
+import { LightBulbIcon } from './Icons';
+import { GitHubLogoIcon } from '@radix-ui/react-icons';
 
 export const HeroCards = () => {
   return (
@@ -20,10 +20,7 @@ export const HeroCards = () => {
       <Card className="absolute w-[340px] -top-[15px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="flex flex-row items-center gap-4 pb-2">
           <Avatar>
-            <AvatarImage
-              alt=""
-              src="https://github.com/dominictayloruk.png"
-            />
+            <AvatarImage alt="" src="https://github.com/dominictayloruk.png" />
             <AvatarFallback>SH</AvatarFallback>
           </Avatar>
 
@@ -45,15 +42,12 @@ export const HeroCards = () => {
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
           <CardTitle className="text-center">Dominic Taylor</CardTitle>
-          <CardDescription className="font-normal text-primary">
-            Web Developer
-          </CardDescription>
+          <CardDescription className="font-normal text-primary">Web Developer</CardDescription>
         </CardHeader>
 
         <CardContent className="text-center pb-2">
           <p>
-            I really enjoy transforming ideas into functional software that
-            exceeds expectations
+            I really enjoy transforming ideas into functional software that exceeds expectations
           </p>
         </CardContent>
 
@@ -64,8 +58,8 @@ export const HeroCards = () => {
               href="https://github.com/dominictayloruk"
               target="_blank"
               className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
+                variant: 'ghost',
+                size: 'sm',
               })}
             >
               <span className="sr-only">Github icon</span>
@@ -76,8 +70,8 @@ export const HeroCards = () => {
               href="https://twitter.com/leo_mirand4"
               target="_blank"
               className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
+                variant: 'ghost',
+                size: 'sm',
               })}
             >
               <span className="sr-only">X icon</span>
@@ -97,8 +91,8 @@ export const HeroCards = () => {
               href="https://www.linkedin.com/"
               target="_blank"
               className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
+                variant: 'ghost',
+                size: 'sm',
               })}
             >
               <span className="sr-only">Linkedin icon</span>
@@ -113,10 +107,7 @@ export const HeroCards = () => {
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
             Free
-            <Badge
-              variant="secondary"
-              className="text-sm text-primary"
-            >
+            <Badge variant="secondary" className="text-sm text-primary">
               Most popular
             </Badge>
           </CardTitle>
@@ -138,17 +129,11 @@ export const HeroCards = () => {
 
         <CardFooter className="flex">
           <div className="space-y-4">
-            {["4 Team member", "4 GB Storage", "Upto 6 pages"].map(
-              (benefit: string) => (
-                <span
-                  key={benefit}
-                  className="flex"
-                >
-                  <Check className="text-green-500" />{" "}
-                  <h3 className="ml-2">{benefit}</h3>
-                </span>
-              )
-            )}
+            {['4 Team member', '4 GB Storage', 'Upto 6 pages'].map((benefit: string) => (
+              <span key={benefit} className="flex">
+                <Check className="text-green-500" /> <h3 className="ml-2">{benefit}</h3>
+              </span>
+            ))}
           </div>
         </CardFooter>
       </Card>
@@ -162,8 +147,7 @@ export const HeroCards = () => {
           <div>
             <CardTitle>Light & dark mode</CardTitle>
             <CardDescription className="text-md mt-2">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur
-              natusm.
+              Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur natusm.
             </CardDescription>
           </div>
         </CardHeader>
