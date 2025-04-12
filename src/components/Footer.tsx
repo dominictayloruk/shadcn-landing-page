@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="col-span-full xl:col-span-2">
           <a rel="noreferrer noopener" href="/" className="font-bold text-xl flex">
             <LogoIcon />
-            Shadcn/ui React
+            Shadcn/ui Landing Page
           </a>
         </div>
 
