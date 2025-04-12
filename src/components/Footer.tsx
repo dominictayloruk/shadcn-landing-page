@@ -9,27 +9,27 @@ export const Footer = () => {
         <div className="col-span-full xl:col-span-2">
           <a rel="noreferrer noopener" href="/" className="font-bold text-xl flex">
             <LogoIcon />
-            ShadcnUI/React
+            Shadcn/ui React
           </a>
         </div>
 
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Follow US</h3>
           <div>
-            <a rel="noreferrer noopener" href="#" className="opacity-60 hover:opacity-100">
+            <a rel="noreferrer noopener" href="https://github.com/dominictayloruk" className="opacity-60 hover:opacity-100">
               Github
             </a>
           </div>
 
           <div>
-            <a rel="noreferrer noopener" href="#" className="opacity-60 hover:opacity-100">
+            <a rel="noreferrer noopener" href="https://x.com/dominictayloruk" className="opacity-60 hover:opacity-100">
               Twitter
             </a>
           </div>
 
           <div>
-            <a rel="noreferrer noopener" href="#" className="opacity-60 hover:opacity-100">
-              Dribbble
+            <a rel="noreferrer noopener" href="https://www.linkedin.com/in/ukdominictaylor/" className="opacity-60 hover:opacity-100">
+              LinkedIn
             </a>
           </div>
         </div>
@@ -58,19 +58,19 @@ export const Footer = () => {
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">About</h3>
           <div>
-            <a rel="noreferrer noopener" href="#" className="opacity-60 hover:opacity-100">
+            <a rel="noreferrer noopener" href="#features" className="opacity-60 hover:opacity-100">
               Features
             </a>
           </div>
 
           <div>
-            <a rel="noreferrer noopener" href="#" className="opacity-60 hover:opacity-100">
+            <a rel="noreferrer noopener" href="#pricing" className="opacity-60 hover:opacity-100">
               Pricing
             </a>
           </div>
 
           <div>
-            <a rel="noreferrer noopener" href="#" className="opacity-60 hover:opacity-100">
+            <a rel="noreferrer noopener" href="#faq" className="opacity-60 hover:opacity-100">
               FAQ
             </a>
           </div>
@@ -100,7 +100,7 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Landing page made by{' '}
+          &copy; 2025 Landing page made by{' '}
           <a
             rel="noreferrer noopener"
             target="_blank"
