@@ -67,7 +67,7 @@ export const HeroCards = () => {
             </a>
             <a
               rel="noreferrer noopener"
-              href="https://twitter.com/leo_mirand4"
+              href="https://x.com/dominictayloruk"
               target="_blank"
               className={buttonVariants({
                 variant: 'ghost',
@@ -88,7 +88,7 @@ export const HeroCards = () => {
 
             <a
               rel="noreferrer noopener"
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/ukdominictaylor/"
               target="_blank"
               className={buttonVariants({
                 variant: 'ghost',
