@@ -5,12 +5,13 @@ import reactHooks from 'eslint-plugin-react-hooks';
 import prettier from 'eslint-config-prettier';
 
 export default [
+  { ignores: ['dist/**'] },
   eslint.configs.recommended,
   ...tseslint.configs.recommended,
   prettier,
   {
     files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
-    ignores: ['dist/**', '.eslintrc.cjs'],
+    ignores: ['.eslintrc.cjs'],
     languageOptions: {
       ecmaVersion: 2020,
       sourceType: 'module',
