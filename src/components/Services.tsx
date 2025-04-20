@@ -32,10 +32,10 @@ const serviceList: ServiceProps[] = [
 export const Services = () => {
   return (
     <section className="container py-24 sm:py-32">
-      <div className="grid lg:grid-cols-[1fr,1fr] gap-8 place-items-center">
+      <div className="grid lg:grid-cols-[1fr_1fr] gap-8 place-items-center">
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
-            <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+            <span className="bg-linear-to-b from-primary/60 to-primary text-transparent bg-clip-text">
               Client-Centric{' '}
             </span>
             Services
