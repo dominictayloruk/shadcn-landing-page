@@ -71,7 +71,6 @@ export function ContactForm() {
               <div className="grid gap-4">
                 {/* Name Field */}
                 <FormField
-                  control={form.control}
                   name="name"
                   render={({ field }) => (
                     <FormItem className="grid gap-2">
@@ -92,7 +91,6 @@ export function ContactForm() {
 
                 {/* Email Field */}
                 <FormField
-                  control={form.control}
                   name="email"
                   render={({ field }) => (
                     <FormItem className="grid gap-2">
@@ -113,7 +111,6 @@ export function ContactForm() {
 
                 {/* Message Field */}
                 <FormField
-                  control={form.control}
                   name="message"
                   render={({ field }) => (
                     <FormItem className="grid gap-2">
