@@ -75,7 +75,7 @@ export const Testimonials = () => {
           <Card key={userName} className="max-w-md md:break-inside-avoid overflow-hidden">
             <CardHeader className="flex flex-row items-center gap-4 pb-2">
               <Avatar>
-                <AvatarImage alt="" src={image} />
+                <AvatarImage alt="" src={image} className="hue-rotate-270" />
                 <AvatarFallback>OM</AvatarFallback>
               </Avatar>
 

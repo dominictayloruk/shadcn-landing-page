@@ -20,7 +20,7 @@ export const HeroCards = () => {
       <Card className="absolute w-[340px] -top-[15px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="flex flex-row items-center gap-4 pb-2">
           <Avatar>
-            <AvatarImage alt="" src="https://github.com/dominictayloruk.png" />
+            <AvatarImage alt="" src="https://github.com/dominictayloruk.png" className="hue-rotate-270" />
             <AvatarFallback>SH</AvatarFallback>
           </Avatar>
 
@@ -39,7 +39,7 @@ export const HeroCards = () => {
           <img
             src="https://github.com/dominictayloruk.png"
             alt="user avatar"
-            className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
+            className="absolute hue-rotate-270 grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
           <CardTitle className="text-center">Dominic Taylor</CardTitle>
           <CardDescription className="font-normal text-primary">Web Developer</CardDescription>
