@@ -50,7 +50,7 @@ export const Hero = () => {
       </div>
 
       {/* Shadow effect */}
-      <div className="shadow-sm"></div>
+      <div className="shadow"></div>
     </section>
   );
 };
