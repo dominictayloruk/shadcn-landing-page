@@ -105,7 +105,7 @@ export const HeroCards = () => {
       {/* Pricing */}
       <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
-          <CardTitle className="flex item-center justify-between">
+          <CardTitle className="flex items-center justify-between">
             Free
             <Badge variant="secondary" className="text-sm text-primary">
               Most popular

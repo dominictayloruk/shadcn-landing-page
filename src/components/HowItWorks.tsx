@@ -40,7 +40,7 @@ export const HowItWorks = () => {
     <section id="howItWorks" className="container text-center py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold ">
         How It{' '}
-        <span className="bg-linear-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-primary/60 to-primary text-transparent bg-clip-text">
           Works{' '}
         </span>
         Step-by-Step Guide

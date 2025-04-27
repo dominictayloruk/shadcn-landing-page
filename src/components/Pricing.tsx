@@ -74,7 +74,7 @@ export const Pricing = () => {
     <section id="pricing" className="container py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold text-center">
         Get
-        <span className="bg-linear-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+        <span className="bg-gradient-to-r from-primary/60 to-primary text-transparent bg-clip-text">
           {' '}
           Unlimited{' '}
         </span>
@@ -94,7 +94,7 @@ export const Pricing = () => {
             }
           >
             <CardHeader>
-              <CardTitle className="flex item-center justify-between">
+              <CardTitle className="flex items-center justify-between">
                 {pricing.title}
                 {pricing.popular === PopularPlanType.YES ? (
                   <Badge variant="secondary" className="text-sm text-primary">
