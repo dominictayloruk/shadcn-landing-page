@@ -17,6 +17,14 @@ stages:
 build:
   stage: build
   image: yobasystems/alpine-nodejs:min
+  before_script:
+    - npm ci --cache .npm --prefer-offline
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - .npm/
   script:
     - npm ci
     - npm run build
