@@ -31,7 +31,7 @@ export const Footer = () => {
               href="https://x.com/dominictayloruk"
               className="opacity-60 hover:opacity-100"
             >
-              Twitter
+              X (Twitter)
             </a>
           </div>
 
