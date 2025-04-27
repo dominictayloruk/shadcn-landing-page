@@ -20,7 +20,11 @@ export const HeroCards = () => {
       <Card className="absolute w-[340px] -top-[15px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="flex flex-row items-center gap-4 pb-2">
           <Avatar>
-            <AvatarImage alt="" src="https://github.com/dominictayloruk.png" className="hue-rotate-270" />
+            <AvatarImage
+              alt=""
+              src="https://github.com/dominictayloruk.png"
+              className="hue-rotate-270"
+            />
             <AvatarFallback>SH</AvatarFallback>
           </Avatar>
 

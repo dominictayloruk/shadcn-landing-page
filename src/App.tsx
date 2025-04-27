@@ -1,6 +1,7 @@
 import { About } from './components/About';
 import { Cta } from './components/Cta';
 import { FAQ } from './components/FAQ';
+import { ContactForm } from './components/ContactForm';
 import { Features } from './components/Features';
 import { Footer } from './components/Footer';
 import { Hero } from './components/Hero';
@@ -31,6 +32,7 @@ function App() {
       <Pricing />
       <Newsletter />
       <FAQ />
+      <ContactForm />
       <Footer />
       <ScrollToTop />
     </>
