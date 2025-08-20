@@ -73,11 +73,7 @@ export function AnimatedBackground({ children, className = '' }: AnimatedBackgro
 
   return (
     <div className={`relative ${className}`}>
-      <canvas
-        ref={canvasRef}
-        className="absolute inset-0 w-full h-full"
-        style={{ zIndex: -1 }}
-      />
+      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" style={{ zIndex: -1 }} />
       {children}
     </div>
   );
