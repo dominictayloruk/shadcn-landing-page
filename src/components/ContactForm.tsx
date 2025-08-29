@@ -17,7 +17,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { AnimatedBackground } from '@/components/AnimatedBackground';
 
 // Schema for contact form validation
 const formSchema = z.object({
@@ -48,94 +47,95 @@ export function ContactForm() {
   }
 
   return (
-    <AnimatedBackground className="py-16 my-16 sm:my-24">
-      <section id="contactForm">
-        <div className="flex min-h-[60vh] h-full w-full items-center justify-center px-4">
-          <Card className="mx-auto max-w-lg">
-            <CardHeader>
-              <CardTitle className="text-3xl md:text-4xl font-bold text-center">
-                Get in
-                <span className="bg-gradient-to-r from-primary/60 to-primary text-transparent bg-clip-text">
-                  {' '}
-                  Contact{' '}
-                </span>
-                with us
-              </CardTitle>
-              <CardDescription className="text-center">
-                Please fill out the form below and we will get back to you shortly.
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <Form form={form} onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-                <div className="grid gap-4">
-                  {/* Name Field */}
-                  <FormField
-                    name="name"
-                    render={({ field }) => (
-                      <FormItem className="grid gap-2">
-                        <FormLabel htmlFor="name">Name</FormLabel>
-                        <FormControl>
-                          <Input
-                            id="name"
-                            placeholder="John Doe"
-                            type="text"
-                            autoComplete="name"
-                            {...field}
-                          />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
+    <section id="contactForm" className="py-8 mt-4 mb-8 sm:mt-8 sm:mb-16 relative">
+      <div className="flex min-h-[60vh] h-full w-full items-center justify-center px-4">
+        <Card className="mx-auto max-w-lg z-10">
+          <CardHeader>
+            <CardTitle className="text-3xl md:text-4xl font-bold text-center">
+              Get in
+              <span className="bg-gradient-to-r from-primary/60 to-primary text-transparent bg-clip-text">
+                {' '}
+                Contact{' '}
+              </span>
+              with us
+            </CardTitle>
+            <CardDescription className="text-center">
+              Please fill out the form below and we will get back to you shortly.
+            </CardDescription>
+          </CardHeader>
+          <CardContent>
+            <Form form={form} onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
+              <div className="grid gap-4">
+                {/* Name Field */}
+                <FormField
+                  name="name"
+                  render={({ field }) => (
+                    <FormItem className="grid gap-2">
+                      <FormLabel htmlFor="name">Name</FormLabel>
+                      <FormControl>
+                        <Input
+                          id="name"
+                          placeholder="John Doe"
+                          type="text"
+                          autoComplete="name"
+                          {...field}
+                        />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
 
-                  {/* Email Field */}
-                  <FormField
-                    name="email"
-                    render={({ field }) => (
-                      <FormItem className="grid gap-2">
-                        <FormLabel htmlFor="email">Email</FormLabel>
-                        <FormControl>
-                          <Input
-                            id="email"
-                            placeholder="johndoe@mail.com"
-                            type="email"
-                            autoComplete="email"
-                            {...field}
-                          />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
+                {/* Email Field */}
+                <FormField
+                  name="email"
+                  render={({ field }) => (
+                    <FormItem className="grid gap-2">
+                      <FormLabel htmlFor="email">Email</FormLabel>
+                      <FormControl>
+                        <Input
+                          id="email"
+                          placeholder="johndoe@mail.com"
+                          type="email"
+                          autoComplete="email"
+                          {...field}
+                        />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
 
-                  {/* Message Field */}
-                  <FormField
-                    name="message"
-                    render={({ field }) => (
-                      <FormItem className="grid gap-2">
-                        <FormLabel htmlFor="message">Message</FormLabel>
-                        <FormControl>
-                          <Textarea
-                            id="message"
-                            placeholder="Your message..."
-                            autoComplete="off"
-                            {...field}
-                          />
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )}
-                  />
+                {/* Message Field */}
+                <FormField
+                  name="message"
+                  render={({ field }) => (
+                    <FormItem className="grid gap-2">
+                      <FormLabel htmlFor="message">Message</FormLabel>
+                      <FormControl>
+                        <Textarea
+                          id="message"
+                          placeholder="Your message..."
+                          autoComplete="off"
+                          {...field}
+                        />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
 
-                  <Button type="submit" className="w-full">
-                    Send Message
-                  </Button>
-                </div>
-              </Form>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-    </AnimatedBackground>
+                <Button type="submit" className="w-full">
+                  Send Message
+                </Button>
+              </div>
+            </Form>
+          </CardContent>
+        </Card>
+      </div>
+
+      {/* Shadow effect */}
+      <div className="shadow"></div>
+    </section>
   );
 }
