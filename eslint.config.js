@@ -11,7 +11,6 @@ export default [
   prettier,
   {
     files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
-    ignores: ['.eslintrc.cjs'],
     languageOptions: {
       ecmaVersion: 2020,
       sourceType: 'module',

@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "lint:fix": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
+    "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --report-unused-disable-directives --max-warnings 0 --fix",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,css,md}\"",
     "preview": "vite preview"
@@ -34,17 +34,16 @@
     "zod": "^4.1.12"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.3.1",
-    "@eslint/js": "^9.38.0",
+    "@eslint/js": "^9.20.0",
     "@tailwindcss/postcss": "^4.1.14",
-    "@types/node": "^22.18.8",
+    "@types/node": "^22.18.11",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "@typescript-eslint/eslint-plugin": "^8.46.1",
     "@typescript-eslint/parser": "^8.46.1",
     "@vitejs/plugin-react": "^5.0.4",
     "esbuild": "^0.25.11",
-    "eslint": "^9.38.0",
+    "eslint": "^9.20.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react-hooks": "^7.0.0",
     "eslint-plugin-react-refresh": "^0.4.24",

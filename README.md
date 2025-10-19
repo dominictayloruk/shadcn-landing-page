@@ -56,11 +56,49 @@ cd shadcn-landing-page
 npm install
 ```
 
+**Note:** If you encounter a peer dependency error with `@typescript-eslint` packages, try one of these solutions:
+
+```bash
+# Option 1: Delete lock file and reinstall (recommended)
+rm package-lock.json
+npm install
+
+# Option 2: Use legacy peer deps flag
+npm install --legacy-peer-deps
+```
+
 4. Run project
 
 ```bash
 npm run dev
 ```
+
+## Troubleshooting
+
+### Dependency Resolution Error
+
+If `npm install` fails with an `ERESOLVE` error related to TypeScript ESLint packages:
+
+1. **Clean install** (recommended):
+
+   ```bash
+   rm -rf node_modules package-lock.json
+   npm install
+   ```
+
+2. **Use legacy peer deps**:
+
+   ```bash
+   npm install --legacy-peer-deps
+   ```
+
+3. **Check Node version**: Ensure you're using Node.js 18+ and npm 9+
+   ```bash
+   node --version
+   npm --version
+   ```
+
+For more details, see [PLAN.md](./PLAN.md)
 
 ## Deploy to Coolify
 
