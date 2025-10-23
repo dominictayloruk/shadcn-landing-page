@@ -98,5 +98,3 @@ shadcn-landing-page/
 
 ## Known Issues
 
-1. **npm install fails** - Peer dependency conflict with TypeScript ESLint packages
-2. No other known issues at this time
