@@ -35,6 +35,8 @@ Build your React landing page effortlessly with the required sections to your pr
 - [x] User Friendly Navigation
 - [x] Dark Mode
 - [x] Meta tags
+- [x] Modern Tech Stack (React 19, Vite 7, TypeScript 5.9, Tailwind CSS 4)
+- [x] Code Quality Tools (ESLint, Prettier, Knip)
 
 ## Local install
 
@@ -56,49 +58,41 @@ cd shadcn-landing-page
 npm install
 ```
 
-**Note:** If you encounter a peer dependency error with `@typescript-eslint` packages, try one of these solutions:
-
-```bash
-# Option 1: Delete lock file and reinstall (recommended)
-rm package-lock.json
-npm install
-
-# Option 2: Use legacy peer deps flag
-npm install --legacy-peer-deps
-```
-
-4. Run project
+4. Run development server
 
 ```bash
 npm run dev
 ```
 
-## Troubleshooting
+## Available Scripts
 
-### Dependency Resolution Error
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+- `npm run lint:fix` - Run ESLint with auto-fix
+- `npm run format` - Format code with Prettier
+- `npm run format:check` - Check code formatting
+- `npm run knip` - Analyze unused dependencies and exports
 
-If `npm install` fails with an `ERESOLVE` error related to TypeScript ESLint packages:
+## Tech Stack
 
-1. **Clean install** (recommended):
+### Core
+- React 19
+- Vite 7
+- TypeScript 5
 
-   ```bash
-   rm -rf node_modules package-lock.json
-   npm install
-   ```
+### Styling
+- Tailwind CSS 4
+- shadcn/ui components
+- Lucide React icons
 
-2. **Use legacy peer deps**:
+### Development Tools
+- ESLint 9
+- Prettier 3
+- Knip 5
 
-   ```bash
-   npm install --legacy-peer-deps
-   ```
-
-3. **Check Node version**: Ensure you're using Node.js 18+ and npm 9+
-   ```bash
-   node --version
-   npm --version
-   ```
-
-For more details, see [PLAN.md](./PLAN.md)
+For detailed dependency information, see [PLAN.md](./PLAN.md)
 
 ## Deploy to Coolify
 

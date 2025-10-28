@@ -1,0 +1,17 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": ["src/main.tsx", "src/App.tsx"],
+  "project": ["src/**/*.{ts,tsx}"],
+  "ignore": ["**/*.test.{ts,tsx}", "**/*.spec.{ts,tsx}"],
+  "ignoreDependencies": [
+    "tailwindcss",
+    "tailwindcss-animate",
+    "@typescript-eslint/eslint-plugin",
+    "@typescript-eslint/parser",
+    "esbuild"
+  ],
+  "ignoreExportsUsedInFile": true,
+  "eslint": true,
+  "prettier": true,
+  "vite": true
+}
