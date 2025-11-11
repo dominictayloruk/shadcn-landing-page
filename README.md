@@ -78,16 +78,19 @@ npm run dev
 ## Tech Stack
 
 ### Core
+
 - React 19
 - Vite 7
 - TypeScript 5
 
 ### Styling
+
 - Tailwind CSS 4
 - shadcn/ui components
 - Lucide React icons
 
 ### Development Tools
+
 - ESLint 9
 - Prettier 3
 - Knip 5

@@ -41,21 +41,25 @@ shadcn-landing-page/
 ## Tech Stack
 
 ### Core
+
 - **Framework:** React 19
 - **Build Tool:** Vite 7
 - **Language:** TypeScript 5
 - **CSS Framework:** Tailwind CSS 4
 
 ### UI Components
+
 - **Component Library:** shadcn/ui (Radix UI primitives)
 - **Icons:** Lucide React 0.548.0
 - **Notifications:** Sonner
 
 ### Forms & Validation
+
 - **Form Management:** React Hook Form 7
 - **Validation:** Zod 4
 
 ### Development Tools
+
 - **Linting:** ESLint 9 with TypeScript support
 - **Formatting:** Prettier 3
 - **Dependency Analysis:** Knip 5
