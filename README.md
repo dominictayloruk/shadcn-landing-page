@@ -55,25 +55,25 @@ cd shadcn-landing-page
 3. Install dependencies
 
 ```bash
-npm install
+pnpm install
 ```
 
 4. Run development server
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ## Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run lint:fix` - Run ESLint with auto-fix
-- `npm run format` - Format code with Prettier
-- `npm run format:check` - Check code formatting
-- `npm run knip` - Analyze unused dependencies and exports
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production
+- `pnpm preview` - Preview production build
+- `pnpm lint` - Run ESLint
+- `pnpm lint:fix` - Run ESLint with auto-fix
+- `pnpm format` - Format code with Prettier
+- `pnpm format:check` - Check code formatting
+- `pnpm knip` - Analyze unused dependencies and exports
 
 ## Tech Stack
 
@@ -116,7 +116,7 @@ https://github.com/dominictayloruk/shadcn-landing-page.git
 3. Install command:
 
 ```
-npm install
+pnpm install
 ```
 
 4. Build command:
