@@ -29,7 +29,7 @@ build:
     paths:
       - .pnpm-store/
   script:
-    - pnpm install
+    - pnpm install --frozen-lockfile
     - pnpm run build
   artifacts:
     paths:
