@@ -11,8 +11,9 @@ import type {
   UseFormStateReturn,
 } from 'react-hook-form';
 
-interface FormProps<T extends FieldValues = FieldValues>
-  extends React.FormHTMLAttributes<HTMLFormElement> {
+interface FormProps<
+  T extends FieldValues = FieldValues,
+> extends React.FormHTMLAttributes<HTMLFormElement> {
   form: UseFormReturn<T>;
 }
 
