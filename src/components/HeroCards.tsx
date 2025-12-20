@@ -43,7 +43,7 @@ export const HeroCards = () => {
           <img
             src="https://github.com/dominictayloruk.png"
             alt="user avatar"
-            className="absolute hue-rotate-270 grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
+            className="absolute hue-rotate-270 grayscale-0 -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
           <CardTitle className="text-center">Dominic Taylor</CardTitle>
           <CardDescription className="font-normal text-primary">Web Developer</CardDescription>
