@@ -9,9 +9,9 @@ import {
   CardTitle,
   CardFooter,
 } from '@/components/ui/card';
-import { Check, Linkedin } from 'lucide-react';
+import { Check } from 'lucide-react';
 import { LightBulbIcon } from './Icons';
-import { GitHubLogoIcon } from '@radix-ui/react-icons';
+import { GitHubLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
 
 export const HeroCards = () => {
   return (
@@ -100,7 +100,7 @@ export const HeroCards = () => {
               })}
             >
               <span className="sr-only">Linkedin icon</span>
-              <Linkedin size="20" />
+              <LinkedInLogoIcon className="w-5 h-5" />
             </a>
           </div>
         </CardFooter>
