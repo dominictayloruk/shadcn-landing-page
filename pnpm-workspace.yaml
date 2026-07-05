@@ -2,5 +2,7 @@ packages:
   - "."
 allowBuilds:
   esbuild: true
+minimumReleaseAgeExclude:
+  - react-hook-form@7.81.0
 onlyBuiltDependencies:
   - esbuild
