@@ -19,7 +19,7 @@
     "knip": "knip"
   },
   "dependencies": {
-    "@hookform/resolvers": "^5.4.0",
+    "@hookform/resolvers": "^5.5.1",
     "@radix-ui/react-accordion": "^1.2.15",
     "@radix-ui/react-avatar": "^1.2.1",
     "@radix-ui/react-dialog": "^1.1.18",
