@@ -4,5 +4,6 @@ allowBuilds:
   esbuild: true
 minimumReleaseAgeExclude:
   - react-hook-form@7.81.0 || 7.85.0
+  - '@hookform/resolvers@5.9.1'
 onlyBuiltDependencies:
   - esbuild
