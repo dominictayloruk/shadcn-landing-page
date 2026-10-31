@@ -6,20 +6,21 @@
 
 ## Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-- `npm run lint:fix` - Run ESLint with auto-fix
-- `npm run format` - Format code with Prettier
-- `npm run format:check` - Check code formatting
-- `npm run knip` - Analyze unused dependencies and exports
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production
+- `pnpm preview` - Preview production build
+- `pnpm check` - Run Biome check (linter + formatter)
+- `pnpm check:fix` - Run Biome check with auto-fix
+- `pnpm lint` - Run Biome linter
+- `pnpm lint:fix` - Run Biome linter with auto-fix
+- `pnpm format` - Format code with Biome
+- `pnpm format:check` - Check code formatting with Biome
+- `pnpm knip` - Analyze unused dependencies and exports
 
 ## Development Tools
 
 - **Knip** - Configured to detect unused dependencies, files, and exports
-- **ESLint** - Code linting with TypeScript support
-- **Prettier** - Code formatting
+- **Biome** - Code linting and formatting
 - **TypeScript** - Type checking
 
 ## Project Structure
@@ -43,14 +44,14 @@ shadcn-landing-page/
 ### Core
 
 - **Framework:** React 19
-- **Build Tool:** Vite 7
-- **Language:** TypeScript 5
+- **Build Tool:** Vite 8
+- **Language:** TypeScript 7
 - **CSS Framework:** Tailwind CSS 4
 
 ### UI Components
 
 - **Component Library:** shadcn/ui (Radix UI primitives)
-- **Icons:** Lucide React 0.548.0
+- **Icons:** Lucide React
 - **Notifications:** Sonner
 
 ### Forms & Validation
@@ -60,9 +61,8 @@ shadcn-landing-page/
 
 ### Development Tools
 
-- **Linting:** ESLint 9 with TypeScript support
-- **Formatting:** Prettier 3
-- **Dependency Analysis:** Knip 5
+- **Linting & Formatting:** Biome 2
+- **Dependency Analysis:** Knip 6
 
 ## Known Issues
 

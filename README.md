@@ -35,8 +35,8 @@ Build your React landing page effortlessly with the required sections to your pr
 - [x] User Friendly Navigation
 - [x] Dark Mode
 - [x] Meta tags
-- [x] Modern Tech Stack (React 19, Vite 7, TypeScript 5.9, Tailwind CSS 4)
-- [x] Code Quality Tools (ESLint, Prettier, Knip)
+- [x] Modern Tech Stack (React 19, Vite 8, TypeScript 7, Tailwind CSS 4)
+- [x] Code Quality Tools (Biome, Knip)
 
 ## Local install
 
@@ -69,10 +69,12 @@ pnpm dev
 - `pnpm dev` - Start development server
 - `pnpm build` - Build for production
 - `pnpm preview` - Preview production build
-- `pnpm lint` - Run ESLint
-- `pnpm lint:fix` - Run ESLint with auto-fix
-- `pnpm format` - Format code with Prettier
-- `pnpm format:check` - Check code formatting
+- `pnpm check` - Run Biome check (linter + formatter)
+- `pnpm check:fix` - Run Biome check with auto-fix
+- `pnpm lint` - Run Biome linter
+- `pnpm lint:fix` - Run Biome linter with auto-fix
+- `pnpm format` - Format code with Biome
+- `pnpm format:check` - Check code formatting with Biome
 - `pnpm knip` - Analyze unused dependencies and exports
 
 ## Tech Stack
@@ -80,8 +82,8 @@ pnpm dev
 ### Core
 
 - React 19
-- Vite 7
-- TypeScript 5
+- Vite 8
+- TypeScript 7
 
 ### Styling
 
@@ -91,9 +93,8 @@ pnpm dev
 
 ### Development Tools
 
-- ESLint 9
-- Prettier 3
-- Knip 5
+- Biome 2
+- Knip 6
 
 For detailed dependency information, see [PLAN.md](./PLAN.md)
 

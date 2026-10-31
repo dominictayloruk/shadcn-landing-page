@@ -1,3 +1,4 @@
+import { InstagramLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
 import { buttonVariants } from '@/components/ui/button';
 import {
   Card,
@@ -7,7 +8,6 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import { InstagramLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
 
 const FacebookIcon = ({ className }: { className?: string }) => (
   <svg

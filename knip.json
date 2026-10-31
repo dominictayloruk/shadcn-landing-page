@@ -2,9 +2,6 @@
   "$schema": "https://unpkg.com/knip@6/schema.json",
   "entry": ["src/components/ui/**"],
   "project": ["src/**/*.{ts,tsx,css}"],
-  "ignoreDependencies": ["@typescript-eslint/eslint-plugin", "@typescript-eslint/parser"],
   "ignoreExportsUsedInFile": true,
-  "eslint": true,
-  "prettier": true,
   "vite": true
 }

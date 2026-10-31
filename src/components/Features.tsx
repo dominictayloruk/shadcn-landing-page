@@ -1,8 +1,8 @@
-import { Badge } from './ui/badge';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import image from '../assets/growth.png';
-import image3 from '../assets/reflecting.png';
 import image4 from '../assets/looking-ahead.png';
+import image3 from '../assets/reflecting.png';
+import { Badge } from './ui/badge';
 
 interface FeatureProps {
   title: string;
