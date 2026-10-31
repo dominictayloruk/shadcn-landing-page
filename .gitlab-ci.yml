@@ -19,7 +19,7 @@ build:
   before_script:
   - npm install --global corepack@latest
   - corepack enable
-  - corepack prepare pnpm@latest-10 --activate
+  - corepack prepare pnpm@12.16.1 --activate
   - pnpm config set store-dir .pnpm-store
   cache:
     key:
